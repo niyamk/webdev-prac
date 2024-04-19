@@ -7,21 +7,28 @@
 </head>
 <body>
     <h2>Sign Up</h2>
-    <label for="username">Username</label>
-    <input type="text" placeholder="username" name = 'username' id = 'username' autofocus>
-    <br><br>
-    <label for="password">Password</label>
-    <input type="password" placeholder="password" name = 'password' id = 'password'>
-    <br><br>
-    <input type="radio" name = 'gender' id = 'male'>
-    <label for="male">Male</label>
-    <input type="radio" name = "gender" id = "female">
-    <label for="female">Female</label>
-    <br><br>
-    <label for="hobby">Hobbies</label>
-    <select name="hobby" id="hobby">
-        <option value="reading">Reading</option>
-        <option value="writing">Writing</option>
-    </select>
+    
+    <div id = 'username-div'>
+        <label for="username">Username</label>
+        <input type="text" placeholder="username" name = 'username' id = 'username' autofocus>
+    </div>
+    
+    <div id="password-div">
+        <label for="password">Password</label>
+        <input type="password" placeholder="password" name = 'password' id = 'password'>
+    </div>
+    <div id="radio-div">
+        <input type="radio" name = 'gender' id = 'male'>
+        <label for="male">Male</label>
+        <input type="radio" name = "gender" id = "female">
+        <label for="female">Female</label>
+    </div>
+    <div id="hobby-div">
+        <label for="hobby">Hobbies</label>
+        <select name="hobby" id="hobby">
+            <option value="reading">Reading</option>
+            <option value="writing">Writing</option>
+        </select>
+    </div>
 </body>
 </html>
